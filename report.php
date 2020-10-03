@@ -14,7 +14,6 @@ $data_penjualan = [
     "Minyak Goreng" => ["Filma" => 30, "Bimoli" => 2, "Sunco" => 9, "Sania" => 11, "Fortune" => 10]
 ];
 ?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -109,16 +108,63 @@ $data_penjualan = [
               <th scope="row">Garmelia</th>
               <td>20</td>
             </tr>
-          </tbody>
-          <tfoot>
+            <tfoot>
               <tr>
                   <td>Total</td>
                   <td>35</td>
               </tr>
           </tfoot>
+          </tbody>
+          <tfoot>
+        <br>
+        <!--  -->
+        <table class="table">
+          <thead class="thead-light">
+            <tr>
+              <th scope="col">Minyak Goreng</th>
+              <th scope="col"></th>
+              <th scope="col"></th>
+              <th scope="col"></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Filma</th>
+              <td>30</td>
+            </tr>
+            <tr>
+              <th scope="row">Bimoli</th>
+              <td>2</td>
+            </tr>
+            <tr>
+              <th scope="row">Sunko</th>
+              <td>9</td>
+            </tr>
+            <tr>
+              <th scope="row">Sania</th>
+              <td>11</td>
+            </tr>
+            <tr>
+              <th scope="row">Fortune</th>
+              <td>10</td>
+            </tr>
+          </tbody>
+          <tfoot>
+              <tr>
+                  <td>Total</td>
+                  <td>62</td>
+              </tr>
+          </tfoot>
         </table>
         <br>
         <!--  -->
+        <table class="table">
+          <thead class="thead-light">
+            <tr>
+              <th scope="col">Grand Total 439 </th>
+            </tr>
+        </table>
+        <br>
 
     </div>
 </body>
